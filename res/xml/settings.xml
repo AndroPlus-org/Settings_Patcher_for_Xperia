@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    	<Preference android:title="@string/label_rebootaf" android:key="mess" android:summary="@string/nosum" style="?android:preferenceInformationStyle" />
+	<CheckBoxPreference
+	    android:key="key_dataw"
+	    android:title="@string/label_dataw"
+	    android:summary="@string/sum_dataw"
+	    android:defaultValue="false" />
+	    <CheckBoxPreference
+	    android:key="key_btw"
+	    android:title="@string/label_btw"
+	    android:summary="@string/sum_btw"
+	    android:defaultValue="false" />
+
+	
+	<Preference android:key="mes" android:title="@string/app_name" android:summary="@string/mesum">
+            <intent android:action="android.intent.action.VIEW"
+             android:data="http://androplus.kagome-kagome.com/" />
+        </Preference>
+</PreferenceScreen>
