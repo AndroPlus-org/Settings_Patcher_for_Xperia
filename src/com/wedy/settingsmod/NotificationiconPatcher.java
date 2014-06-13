@@ -30,11 +30,22 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 		
 			resparam.res.setReplacement("com.android.settings", "bool", "config_showMobileDataCostWarning", modRes.fwd(R.bool.config_showMobileDataCostWarning));
 		}
+		boolean isDatawkk = preference.getBoolean("key_datawkk", false);
+		if(isDatawkk){
+		
+			resparam.res.setReplacement("com.android.settings", "bool", "config_showAdviceOfCharge", modRes.fwd(R.bool.config_showAdviceOfCharge));
+		}
 		boolean isBtwa = preference.getBoolean("key_btw", false);
 
 		if(isBtwa){
 		
 			resparam.res.setReplacement("com.android.settings", "bool", "config_showTetheringDialogCheckbox", true);
+		}
+		boolean isBtapn = preference.getBoolean("key_btwapn", false);
+		if(isBtapn){
+		
+			resparam.res.setReplacement("com.android.settings", "bool", "config_hideTetherDunApn", false);
+			resparam.res.setReplacement("com.android.settings", "bool", "config_editableTetherDunApn", true);
 		}
 
 	}

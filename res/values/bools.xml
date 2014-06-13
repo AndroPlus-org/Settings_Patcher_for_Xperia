@@ -2,4 +2,5 @@
 <resources>
     <bool name="config_showTetheringDialogCheckbox">false</bool>
     <bool name="config_showMobileDataCostWarning">false</bool>
+    <bool name="config_showAdviceOfCharge">false</bool>
 </resources>

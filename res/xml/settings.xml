@@ -7,9 +7,19 @@
 	    android:summary="@string/sum_dataw"
 	    android:defaultValue="false" />
 	    <CheckBoxPreference
+	    android:key="key_datawkk"
+	    android:title="@string/label_datawkk"
+	    android:summary="@string/sum_datawkk"
+	    android:defaultValue="false" />
+	    <CheckBoxPreference
 	    android:key="key_btw"
 	    android:title="@string/label_btw"
 	    android:summary="@string/sum_btw"
+	    android:defaultValue="false" />
+	    <CheckBoxPreference
+	    android:key="key_btwapn"
+	    android:title="@string/label_btwapn"
+	    android:summary="@string/sum_btwapn"
 	    android:defaultValue="false" />
 
 	
