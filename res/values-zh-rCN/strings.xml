@@ -3,10 +3,10 @@
 
     <string name="app_name">Xperia设置补丁</string>
     <string name="app_description">改变Settings.apk值,点击这里进行设置</string>
-    <string name="label_dataw">[JB]禁用充电数据警告</string>
-    <string name="sum_dataw">当您启用移动数据时禁用充电数据警告</string>
-    <string name="label_datawkk">[KK]禁用充电数据警告</string>
-    <string name="sum_datawkk">当您启用移动数据时禁用充电数据警告</string>
+    <string name="label_dataw">[JB]禁用充电提示警告</string>
+    <string name="sum_dataw">当您启用移动数据时禁用充电提示警告</string>
+    <string name="label_datawkk">[KK]禁用充电提示警告</string>
+    <string name="sum_datawkk">当您启用移动数据时禁用充电提示警告</string>
     <string name="label_btw">禁止共享警告</string>
     <string name="sum_btw">当您启用共享时显示复选框禁用警告</string>
     <string name="label_btwapn">显示共享Dun APN</string>
