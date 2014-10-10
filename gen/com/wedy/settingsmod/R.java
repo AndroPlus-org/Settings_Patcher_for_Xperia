@@ -20,14 +20,18 @@ public final class R {
     }
     public static final class string {
         public static final int app_description=0x7f050000;
-        public static final int app_name=0x7f05000c;
+        public static final int app_name=0x7f050010;
+        public static final int label_app_num=0x7f05000b;
+        public static final int label_battery=0x7f050009;
         public static final int label_btw=0x7f050005;
         public static final int label_btwapn=0x7f050007;
         public static final int label_dataw=0x7f050001;
         public static final int label_datawkk=0x7f050003;
-        public static final int label_rebootaf=0x7f050009;
-        public static final int mesum=0x7f05000b;
-        public static final int nosum=0x7f05000a;
+        public static final int label_rebootaf=0x7f05000d;
+        public static final int mesum=0x7f05000f;
+        public static final int nosum=0x7f05000e;
+        public static final int sum_app_num=0x7f05000c;
+        public static final int sum_battery=0x7f05000a;
         public static final int sum_btw=0x7f050006;
         public static final int sum_btwapn=0x7f050008;
         public static final int sum_dataw=0x7f050002;

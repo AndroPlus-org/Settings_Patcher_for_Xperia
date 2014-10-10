@@ -9,6 +9,10 @@
     <string name="sum_btw">テザリングを有効にしたときに表示される注意ポップアップに非表示に出来るチェックボックスを表示します。</string>
     <string name="label_btwapn">テザリング(DUN)のAPNを表示</string>
     <string name="sum_btwapn">テザリング(DUN)のAPNを設定に表示します。</string>
+    <string name="label_battery">電池使用量のアプリ数の変更</string>
+    <string name="sum_battery">電池使用量に表示するアプリ数を変更します。</string>
+    <string name="label_app_num">表示するアプリ数</string>
+    <string name="sum_app_num">表示したいアプリの数を指定してください。</string>
     <string name="label_rebootaf">注意</string>
     <string name="nosum">変更は再起動後に反映されます。</string>
     <string name="mesum">"@WedyDQ10"</string>

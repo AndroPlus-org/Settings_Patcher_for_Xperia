@@ -21,6 +21,19 @@
 	    android:title="@string/label_btwapn"
 	    android:summary="@string/sum_btwapn"
 	    android:defaultValue="false" />
+	    <CheckBoxPreference
+	    android:key="key_battery"
+	    android:title="@string/label_battery"
+	    android:summary="@string/sum_battery"
+	    android:defaultValue="false" />
+	    <EditTextPreference 
+	    android:defaultValue="30" 
+	    android:key="key_app_num" 
+	    android:title="@string/label_app_num"
+	    android:summary="@string/sum_app_num"
+	    android:dependency="key_battery"
+	    android:inputType="number"
+	    />
 
 	
 	<Preference android:key="mes" android:title="@string/app_name" android:summary="@string/mesum">

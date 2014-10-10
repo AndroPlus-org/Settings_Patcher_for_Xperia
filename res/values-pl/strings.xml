@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_description">Edytuje Settings.apk. Stuknij tu, aby skonfigurować.</string>
+    <string name="label_dataw">[JB] Wyłącz ostrzeżenie o opłatach transmisji danych</string>
+    <string name="sum_dataw">Wyłącz ostrzeżenie o opłatach transmisji danych po włączeniu transferu.</string>
+    <string name="label_datawkk">[KK] Wyłącz ostrzeżenie o opłatach transmisji danych</string>
+    <string name="sum_datawkk">Wyłącz ostrzeżenie o opłatach transmisji danych po włączeniu transferu.</string>
+    <string name="label_btw">Wyłącz ostrzeżenie o tetheringu</string>
+    <string name="sum_btw">Wyświetl przycisk wyboru wyłączający ostrzeżenie po włączeniu tetheringu.</string>
+    <string name="label_btwapn">Wyświetl Tethering DUN APN</string>
+    <string name="sum_btwapn">Wyświetl Tethering DUN APN</string>
+    <string name="label_rebootaf">Notatka</string>
+    <string name="nosum">Może być konieczny restart, aby zastosować zmiany.</string>
+    <string name="mesum">"@WedyDQ10"</string>
+</resources>

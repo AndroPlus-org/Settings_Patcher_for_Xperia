@@ -9,6 +9,10 @@
     <string name="sum_btw">Show checkbox to disable warning when you enable tethering.</string>
     <string name="label_btwapn">Show Tether Dun APN</string>
     <string name="sum_btwapn">Show tethering DUN APN.</string>
+    <string name="label_battery">More apps in Battery Usage</string>
+    <string name="sum_battery">Show more apps in Battery Usage.</string>
+    <string name="label_app_num">The number of the apps</string>
+    <string name="sum_app_num">Specify how many apps you want to show.</string>
     <string name="label_rebootaf">Note</string>
     <string name="nosum">You may need to reboot for changes to take effect.</string>
     <string name="mesum">"@WedyDQ10"</string>
